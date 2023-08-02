@@ -25,9 +25,26 @@
     }
 
       .content{
+        display: grid;
+        grid-template-columns: 50% 50% ;
+        grid-template-rows: 25% 25% 25%;
         background-color:rgb(80, 16, 125);
         height: 500px;
     }
+
+    .item-1 {
+      /* row-start col-start row-end col-end */
+      grid-area: 1 / 1 / 1 / 1 ;
+
+
+    }
+    .item-2 {
+      /* row-start col-start row-end col-end */
+      grid-area: 1 / 2 / 1 / 3 ;
+
+
+    }
+    
     
     /* Container for flexboxes */
     .row {
